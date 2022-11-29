@@ -1,0 +1,29 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    gap: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+}
